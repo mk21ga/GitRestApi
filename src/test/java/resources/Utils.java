@@ -54,4 +54,12 @@ public class Utils {
 		JsonPath js = new JsonPath(resp);
 		return js.get(key).toString();
 	}
+	
+	//Just for git synctest
+	public String getJsonPath_TestGit(Response response, String key)
+	{
+		String resp =response.asString();
+		JsonPath js = new JsonPath(resp);
+		return js.get(key).toString();
+	}
 }
