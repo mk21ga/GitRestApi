@@ -30,6 +30,7 @@ public class Utils {
 		.setContentType(ContentType.JSON).build();
 		 
 		 System.out.println(req.toString());
+		 System.out.println("Testing Git sync");
 		 
 		return req;
 		}
