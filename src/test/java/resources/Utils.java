@@ -62,4 +62,17 @@ public class Utils {
 		JsonPath js = new JsonPath(resp);
 		return js.get(key).toString();
 	}
+	
+	public String getJsonPath_TestGit2(Response response, String key)
+	{
+		String resp =response.asString();
+		JsonPath js = new JsonPath(resp);
+		return js.get(key).toString();
+	}
+	public String getJsonPath_TestGit_3(Response response, String key)
+	{
+		String resp =response.asString();
+		JsonPath js = new JsonPath(resp);
+		return js.get(key).toString();
+	}
 }
